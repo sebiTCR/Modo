@@ -74,7 +74,3 @@ void ModPort::updateMod(){
     value = getData();
     Serial.println(value);
 }
-
-Type ModPort::getType(){
-    return currentType;
-}

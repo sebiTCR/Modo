@@ -11,10 +11,6 @@
 #pragma once
 #include <ArduinoJson.h>
 
-struct Type{
-    char name[7];
-    char symbol;
-};
 
 /**
  * @brief Represents the hardware module port
@@ -30,24 +26,16 @@ class ModPort{
          */
         ModPort(int conPort_t, int checkerPin_t);
         ~ModPort();
-
-        // template<typename T>
-        // void initCom(int baudRate, T serialPort);
-
         
         float value;
         int serialPort;
         bool isConnected();
-
-        Type getType();
-        Type currentType;
 
         void updateMod();
         float getData();
 
 
     private:
-        Type modType;
         int checkerPin;
         char data[7];
 };
