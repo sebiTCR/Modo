@@ -29,10 +29,12 @@ class ModPort{
         
         float value;
         int serialPort;
-        bool isConnected();
+        String type = "?";
 
+        bool isConnected();
         void updateMod();
         float getData();
+        int getData(DynamicJsonDocument json_t, String measurement_t, int value_t);
 
 
     private:
