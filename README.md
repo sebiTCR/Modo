@@ -28,7 +28,7 @@ Modo is a modular multimeter that can measure up to two physical properties at t
 
 # ✍ Contributing
 Would you like to contribute to Modo? We are more than happy to accept an additional helping hand to our project! 
-While everyone can contribute to our project, there are several rules you must follow in order to help us. Check out the [./CODE_OF_CONDUCT.md](***Code Of Conduct***) and the (***Contribution Guide***) for more details
+While everyone can contribute to our project, there are several rules you must follow in order to help us. Check out the [***Code Of Conduct***](https://github.com/sebiTCR/Modo/blob/master/CODE_OF_CONDUCT.md) and the [***Contribution Guide***](./CONTRIBUTING.md) for more details
 
 # 🌟Spread the Word!
 
@@ -37,6 +37,7 @@ If you appreciate the work we are doing, there are several ways you can help us"
 - Add a ***Github Star*** to the project
 - Tweet about the project on your Twitter!
 	+ Tag @sebitcr or #modo
+- If you apreciate the project, you can sponsor me to continue the work on this project!
 
 # 🔍Licence
 Modo is a free open-source & open-hardware project, licensed unde the MIT Licence. The logo (created by @sebiTCR) and the electronic diagrams (created by @SebiTCR & @Davor19) are distributed under Creative Commons license (CC BY-SA 4.0 International).
